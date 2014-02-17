@@ -28,8 +28,8 @@ end
 
 * This cookbook is starting the sidekiq process using `su`, not `chpst`
 * You should stop and start the worker process as part of your deploy procedure.
-    For example by using `sv stop /etc/sv/sidekiq-rails-core/` &
-    `sv start /etc/sv/sidekiq-rails-core/`. The permission allow app user to stop
+    For example by using `sv stop /etc/sv/sidekiq-rails-depot/` &
+    `sv start /etc/sv/sidekiq-rails-depot/`. The permission allow app user to stop
     and start this service. No need to use `root` user or `sudo` for that.
 
 # Author
