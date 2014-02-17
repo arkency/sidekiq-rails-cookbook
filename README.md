@@ -34,4 +34,8 @@ end
 
 # Author
 
-Author:: Arkency (<dev@arkency.com>)
+Arkency (<dev@arkency.com>)
+
+# License
+
+Apache 2.0
