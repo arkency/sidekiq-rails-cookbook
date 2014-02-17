@@ -6,7 +6,7 @@ Configures sidekiq worker for your app managed by runit.
 
 * App user configured to use proper ruby version when using bash.
     For example by using [`ruby-build` cookbook](https://github.com/arkency/ruby-build-cookbook).
-    More on our prefer settup can be found in [One app, one user, one ruby](http://blog.arkency.com/2012/11/one-app-one-user-one-ruby/)
+    More on our prefered setup can be found in [One app, one user, one ruby](http://blog.arkency.com/2012/11/one-app-one-user-one-ruby/)
     blogpost.
 * Runit
 * Sidekiq gem in your rails app
