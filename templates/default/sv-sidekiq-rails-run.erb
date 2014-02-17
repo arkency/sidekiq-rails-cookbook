@@ -1,0 +1,3 @@
+#!/bin/bash
+exec 2>&1
+exec su - <%= @options[:user_name] %> -c "cd <%= @options[:app_dir] %> && RAILS_ENV=<%= @options[:rails_env] %> exec bundle exec sidekiq"
